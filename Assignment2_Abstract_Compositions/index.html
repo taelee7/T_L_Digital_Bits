@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+.grid-container2 > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+.grid-container3 > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+.grid-container4 > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container5 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+.grid-container5 > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 { grid-area: menu;
+}
+.item3 { grid-area: main;
+}
+.item4 { grid-area: right;
+}
+.item5 { grid-area: footer;
+}
+
+.grid-container6 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: blue;
+  padding: 10px;
+}
+.grid-container6 > div {
+  background-color: red;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.rectangle{
+  height: 120px;
+  width: 250px;
+  background: #271b75;
+  position: relative;
+  top: 3%;
+  left: 43.5%;
+}
+
+.rectangle2{
+  height: 220px;
+  width: 250px;
+  background: #271b75;
+  position: absolute;
+  top: 3%;
+  left: 30%;
+}
+
+.rectangle3{
+  height: 120px;
+  width: 20px;
+  background: #271b75;
+  position: relative;
+  top: 23%;
+  left: 0.5%;
+}
+
+.rectangle4{
+  height: 20px;
+  width: 250px;
+  background: #271b75;
+  position: relative;
+  top: 3%;
+  left: -20%;
+}
+
+.rectangle5{
+  height: 300px;
+  width: 150px;
+  background: #271b75;
+  position: relative;
+  top: 3%;
+  left: 3.5%;
+}
+
+.grid-container7 {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container8 {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding: 10px;
+}
+.grid-item {
+  background-color: green;
+  border: 1px solid yellow;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<h1> Variation 1 </h1>
+<p> --- </p>
+<div class="grid-container">
+  <div class="item1">
+    <div class="grid-container2">
+      <div class="rectangle">
+      </div>
+      <div class="rectangle2">
+      </div>
+    </div>
+  </div>
+  <div class="item2">
+    <div class="grid-container3">
+      <div class="rectangle3">
+      </div>
+    </div>
+  </div>
+  <div class="item3"></div>
+    <div class="rectangle4">
+    </div>
+    <div class="grid-container4">
+    </div>
+<div class="rectangle5">
+</div>
+  <div class="item4"></div>
+    <div class="grid-container5">
+    </div>
+
+  <div class="item5"></div>
+    <div class="grid-container6">
+    </div>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<h1> Variation 2 </h1>
+<p> --- </p>
+
+<div class="grid-container7">
+  <div class="grid-container8">
+    <div class="grid-container7">
+      <div class="grid-container8">
+        <div class="grid-container7">
+          <div class="grid-container8">
+            <div class="grid-container7">
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+            </div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+    </div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-container7">
+      <div class="grid-container8">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+    </div>
+  </div>
+  <div class="grid-item"></div>
+
+</div>
+
+</body>
+</html>
