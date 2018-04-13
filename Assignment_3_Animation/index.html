@@ -1,0 +1,399 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+body{
+  background-color: lightblue;
+}
+  .square {
+	width: 100px;
+	height: 100px;
+	background: red;
+  opacity: 0.6;
+  animation-name: size;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size {
+  0% {background-color: red;
+      opacity: 0.6;
+      width: 100px;
+      height: 100px;}
+  25% {background-color: yellow;
+      opacity: 0.4;
+      width: 300px;
+      height: 300px;}
+  50% {background-color: blue;
+      opacity: 0.2;
+      width: 600px;
+      height: 600px;}
+  75% {background-color: green;
+      opacity: 0.4;
+      width: 200px;
+      height: 200px;}
+  100% {background-color: red;
+      opacity: 0.6;
+      width: 100px;
+      height: 100px;}
+}
+
+.square2 {
+width: 100px;
+height: 800px;
+background: red;
+opacity: 0.6;
+animation-name: size2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes size2{
+  0% {background-color: blue;
+      opacity: 0.6;
+      width: 100px;
+      height: 800px;}
+  25% {background-color: green;
+      opacity: 0.4;
+      width: 300px;
+      height: 600px;}
+  50% {background-color: red;
+      opacity: 0.2;
+      width: 600px;
+      height: 300px;}
+  75% {background-color: yellow;
+      opacity: 0.4;
+      width: 200px;
+      height: 700px;}
+  100% {background-color: blue;
+      opacity: 0.6;
+      width: 100px;
+      height: 800px;}
+}
+
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+  opacity: 0.5;
+	border-bottom: 100px solid blue;
+	border-left: 100px solid transparent;
+  position: absolute;
+  left: 1700px;
+  top: 10px;
+  animation-name: size3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size3{
+  0% {background-color: blue;
+      opacity: 0.5;
+      height: 0px;}
+  25% {background-color: red;
+      opacity: 0.2;
+      }
+  50% {background-color: blue;
+      opacity: 0.5;
+      height: 710px;}
+  75% {background-color: red;
+      opacity: 0.2;
+      }
+  100% {background-color: blue;
+      opacity: 0.5;
+      height: 0px;}
+}
+
+.square3 {
+  width: 1570px;
+	height: 100px;
+	background: green;
+  opacity: 0.6;
+  position: absolute;
+  left: 120px;
+  top: 9px;
+  animation-name: size4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size4{
+  0% {background-color: green;
+      opacity: 0.6;
+      width: 1570px;
+      left: 120px;}
+  25% {background-color: teal;
+      opacity: 0.3;
+      width: 1370px;
+      left: 320px;
+      }
+  50% {background-color: yellow;
+      opacity: 0.1;
+      width: 1070px;
+      left: 620px;
+      }
+  75% {background-color: teal;
+      opacity: 0.3;
+      width: 1470px;
+      left: 220px;
+      }
+  100% {background-color: green;
+      opacity: 0.6;
+      width: 1570px;
+      left: 120px;}
+}
+
+.square4{
+  width: 100px;
+	height: 100px;
+	background: teal;
+  opacity: 0.1;
+  position: absolute;
+  left: 1590px;
+  top: 830px;
+  animation-name: size5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size5{
+  0% {background-color: green;
+      opacity: 0.1;
+      left: 1590px;
+      top: 830px;
+      }
+  25% {background-color: teal;
+      opacity: 0.3;
+      }
+  50% {background-color: yellow;
+      opacity: 0.5;
+      left: 620px;
+      top: 830px;
+      width: 1065px;
+      }
+  75% {background-color: teal;
+      opacity: 0.3;
+      }
+  100% {background-color: green;
+      opacity: 0.1;
+      left: 1590px;
+      top: 830px;
+    }
+}
+
+.square5{
+  width: 100px;
+	height: 100px;
+	background: ;
+  opacity: 0.4;
+  position: absolute;
+  left: 1590px;
+  top: 120px;
+  animation-name: size6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size5{
+  0% {background-color: teal;
+      opacity: 0.4;
+      left: 1590px;
+      top: 120px;
+      height: 100px;
+      width: 100px;
+      }
+  25% {background-color: teal;
+      opacity: 0.2;
+      left: 1590px;
+      top: 120px;
+      height: 812px;
+      width: 100px;
+      }
+  50% {background-color: red;
+      opacity: 0.4;
+      left: 1018px;
+      top: 120px;
+      height: 812px;
+      width: 672px;
+      }
+  75% {background-color: teal;
+      opacity: 0.2;
+      left: 1590px;
+      top: 120px;
+      height: 812px;
+      width: 100px;
+      }
+  100% {background-color: teal;
+      opacity: 0.4;
+      left: 1590px;
+      top: 120px;
+      height: 100px;
+      width: 100px;
+    }
+}
+
+.square6{
+  width: 1455px;
+	height: 810px;
+	background: purple;
+  opacity: 0.5;
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  animation-name: size7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size7{
+  0% {background-color: purple;
+      opacity: 0.5;
+      width: 1455px;
+    	height: 810px;
+      left: 120px;
+      top: 120px;
+      }
+  25% {background-color: orange;
+      opacity: 0.2;
+      width: 1255px;
+    	height: 810px;
+      left: 320px;
+      top: 120px;
+      }
+  50% {background-color: yellow;
+      opacity: 0.4;
+      width:385px;
+    	height: 810px;
+      left: 620px;
+      top: 120px;
+      }
+  75% {background-color: orange;
+      opacity: 0.2;
+      width: 1355px;
+    	height: 810px;
+      left: 220px;
+      top: 120px;
+      }
+  100% {background-color: purple;
+      opacity: 0.5;
+      width: 1455px;
+    	height: 810px;
+      left: 120px;
+      top: 120px;
+    }
+}
+
+.square7{
+  width: 100px;
+	height: 696px;
+	background: ;
+  opacity: 0.7;
+  position: absolute;
+  left: 1590px;
+  top: 235px;
+  animation-name: size8;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size8{
+  0% {background-color: indigo;
+      opacity: 0.7;
+      width: 100px;
+    	height: 696px;
+      left: 1590px;
+      top: 235px;
+      }
+  25% {background-color: green;
+      opacity: 0.5;
+      width: 100px;
+    	height: 0px;
+      left: 1590px;
+      top: 932px;
+      }
+  50% {background-color: red;
+      opacity: 0.3;
+      width: 100px;
+    	height: 0px;
+      left: 1590px;
+      top: 932px;
+      }
+  75% {background-color: green;
+      opacity: 0.5;
+      width: 100px;
+    	height: 0px;
+      left: 1590px;
+      top: 932px;
+      }
+  100% {background-color: indigo;
+      opacity: 0.7;
+      width: 100px;
+    	height: 696px;
+      left: 1590px;
+      top: 235px;
+    }
+}
+
+.square8{
+  width: 100px;
+	height: 811px;
+	background: ;
+  opacity: 0.5;
+  position: absolute;
+  top: 120px;
+  left: 1700px;
+  animation-name: size9;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size9{
+  0% {background-color: red;
+      opacity: 0.5;
+      width: 100px;
+    	height: 811px;
+      top: 120px;
+      left: 1700px;
+      }
+  25% {background-color: orange;
+      opacity: 0.7;
+
+      }
+  50% {background-color: yellow;
+      opacity: 0.5;
+      width: 100px;
+    	height: 100px;
+      top: 830px;
+      left: 1700px;
+      }
+  75% {background-color: orange;
+      opacity: 0.7;
+
+      }
+  100% {background-color: red;
+      opacity: 0.5;
+      width: 100px;
+    	height: 811px;
+      top: 120px;
+      left: 1700px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+<h1> </h1>
+<h2> <div class="square"> </div> </h2>
+<h2> <div class="square2"> </div> </h2>
+
+<h3> <div class="triangle-bottomright"> </div> </h3>
+<h3> <div class="square3"> </div> </h3>
+<h3> <div class="square4"> </div> </h3>
+<h3> <div class="square5"> </div> </h3>
+<h3> <div class="square6"> </div> </h3>
+<h3> <div class="square7"> </div> </h3>
+<h3> <div class="square8"> </div> </h3>
+
+</body>
+
+</html>
